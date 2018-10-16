@@ -32,6 +32,7 @@ ol, ul {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all .5s ease-in-out;
 }
 
 a:hover {
@@ -220,6 +221,7 @@ img {
   margin: auto;
   text-align: center;
   background-position: center center;
+  border-radius: 20px;
 }
 
 .title-box h1 {
