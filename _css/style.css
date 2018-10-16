@@ -329,7 +329,6 @@ img {
     top: 0;
     z-index: 10;
     transition: right .6s ease-in-out;
-
   }
 
   .header .nav ul li {
@@ -434,13 +433,14 @@ img {
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .footer {
+  margin: 0;
   width: 100%;
   color: rgb(255, 255, 255);
   float: left;
   background: rgb(75, 75, 75);
   text-align: left;
   padding: 20px 0 20px 0;
-  height: 150px;
+  height: 180px;
   bottom: 0;
 }
 
@@ -450,12 +450,20 @@ img {
 }
 
 .footer-column h6 {
-margin-top: 45px;
+margin-top: 50px;
 }
 
 .footer-column li .fab {
-  font-size: 16px;
+  font-size: 20px;
   margin-right: 8px;
+  background: rgb(34, 34, 34);
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .footer-column a {
